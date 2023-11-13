@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+    <h1>Guessing Game</h1>
+    <h4>Guess a number between 1 and 10 and</h4>
+    <h4>try to get within 3 of the random number</h4>
+    <form action="javascript:void(0);" method="POST" onsubmit="rollNumber()">
+        <input type="text" id="roll" placeholder="Input number 1-10">
+
+        <input type="submit" value="Roll">
+    </form>
+
+    <p id="result"></p>
+    <p id="outcome"></p>
+
+    <script src="site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
